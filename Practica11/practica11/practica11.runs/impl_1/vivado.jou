@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Nov 30 13:58:25 2021
+# Process ID: 11416
+# Current directory: C:/Users/Hassan/Desktop/Practicasarqui/Practica11/practica11/practica11.runs/impl_1
+# Command line: vivado.exe -log Arreglo.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Arreglo.tcl -notrace
+# Log file: C:/Users/Hassan/Desktop/Practicasarqui/Practica11/practica11/practica11.runs/impl_1/Arreglo.vdi
+# Journal file: C:/Users/Hassan/Desktop/Practicasarqui/Practica11/practica11/practica11.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Arreglo.tcl -notrace

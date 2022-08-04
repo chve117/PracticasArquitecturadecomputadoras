@@ -1,0 +1,16 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 759dbb3e43c64af395f0ae0ea416d813 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU4Bits_behav xil_defaultlib.ALU4Bits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-4940] 'sumador1bit' remains a black box since it has no binding entity [C:/Users/Hassan/Desktop/Practicasarqui/practica6/ALU1bit/ALU1BIT.srcs/sources_1/new/ALU1BIT.vhd:30]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.ALU1Bit [alu1bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu4bits
+Built simulation snapshot ALU4Bits_behav

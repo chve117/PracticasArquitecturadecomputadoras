@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Oct  7 01:19:28 2021
+# Process ID: 10756
+# Current directory: C:/Users/Hassan/Desktop/Practicasarqui/practica6/ALU1bit/ALU1BIT.runs/synth_1
+# Command line: vivado.exe -log ALU4Bits.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU4Bits.tcl
+# Log file: C:/Users/Hassan/Desktop/Practicasarqui/practica6/ALU1bit/ALU1BIT.runs/synth_1/ALU4Bits.vds
+# Journal file: C:/Users/Hassan/Desktop/Practicasarqui/practica6/ALU1bit/ALU1BIT.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ALU4Bits.tcl -notrace

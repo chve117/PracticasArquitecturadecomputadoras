@@ -1,0 +1,209 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Nov 24 18:21:48 2021
+# Process ID: 17632
+# Current directory: C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.runs/synth_1
+# Command line: vivado.exe -log dataPath.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dataPath.tcl
+# Log file: C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.runs/synth_1/dataPath.vds
+# Journal file: C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source dataPath.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1067.855 ; gain = 0.000
+Command: synth_design -top dataPath -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11092
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1067.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'dataPath' [C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.srcs/sources_1/new/dataPath.vhd:16]
+INFO: [Synth 8-637] synthesizing blackbox instance 'pila' of component 'pilaHardware' [C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.srcs/sources_1/new/dataPath.vhd:36]
+	Parameter p bound to: 10 - type: integer 
+	Parameter n bound to: 25 - type: integer 
+INFO: [Synth 8-637] synthesizing blackbox instance 'memProgram' of component 'memoryProgram' [C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.srcs/sources_1/new/dataPath.vhd:47]
+INFO: [Synth 8-637] synthesizing blackbox instance 'muxReadReg2' of component 'mux4Bits' [C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.srcs/sources_1/new/dataPath.vhd:54]
+INFO: [Synth 8-637] synthesizing blackbox instance 'muxWriteData' of component 'mux16Bits' [C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.srcs/sources_1/new/dataPath.vhd:62]
+INFO: [Synth 8-637] synthesizing blackbox instance 'muxPilaPCin' of component 'mux16Bits' [C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.srcs/sources_1/new/dataPath.vhd:70]
+INFO: [Synth 8-637] synthesizing blackbox instance 'ArchReg' of component 'archivoRegistros' [C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.srcs/sources_1/new/dataPath.vhd:79]
+INFO: [Synth 8-637] synthesizing blackbox instance 'signExt' of component 'signExtender' [C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.srcs/sources_1/new/dataPath.vhd:95]
+INFO: [Synth 8-637] synthesizing blackbox instance 'addressExt' of component 'addressExtensor' [C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.srcs/sources_1/new/dataPath.vhd:100]
+INFO: [Synth 8-637] synthesizing blackbox instance 'muxExtensor' of component 'mux16Bits' [C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.srcs/sources_1/new/dataPath.vhd:106]
+INFO: [Synth 8-637] synthesizing blackbox instance 'muxALUA' of component 'mux16Bits' [C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.srcs/sources_1/new/dataPath.vhd:114]
+INFO: [Synth 8-637] synthesizing blackbox instance 'muxALUB' of component 'mux16Bits' [C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.srcs/sources_1/new/dataPath.vhd:122]
+INFO: [Synth 8-637] synthesizing blackbox instance 'ALU' of component 'ALU16Bits' [C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.srcs/sources_1/new/dataPath.vhd:131]
+INFO: [Synth 8-637] synthesizing blackbox instance 'muxMemDataAddress' of component 'mux16Bits' [C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.srcs/sources_1/new/dataPath.vhd:143]
+	Parameter p bound to: 10 - type: integer 
+	Parameter n bound to: 16 - type: integer 
+INFO: [Synth 8-637] synthesizing blackbox instance 'memData' of component 'memoryData' [C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.srcs/sources_1/new/dataPath.vhd:152]
+INFO: [Synth 8-637] synthesizing blackbox instance 'muxMemDataOut' of component 'mux16Bits' [C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.srcs/sources_1/new/dataPath.vhd:161]
+INFO: [Synth 8-256] done synthesizing module 'dataPath' (1#1) [C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.srcs/sources_1/new/dataPath.vhd:16]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:29 . Memory (MB): peak = 1067.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:31 . Memory (MB): peak = 1067.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:31 . Memory (MB): peak = 1067.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:32 . Memory (MB): peak = 1067.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:01:00 . Memory (MB): peak = 1067.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:01:00 . Memory (MB): peak = 1067.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:01:00 . Memory (MB): peak = 1067.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:01:06 . Memory (MB): peak = 1067.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:01:06 . Memory (MB): peak = 1067.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:01:06 . Memory (MB): peak = 1067.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:01:06 . Memory (MB): peak = 1067.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:01:06 . Memory (MB): peak = 1067.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:01:06 . Memory (MB): peak = 1067.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |pilaHardware     |         1|
+|2     |memoryProgram    |         1|
+|3     |mux4Bits         |         1|
+|4     |mux16Bits        |         7|
+|5     |archivoRegistros |         1|
+|6     |signExtender     |         1|
+|7     |addressExtensor  |         1|
+|8     |ALU16Bits        |         1|
+|9     |memoryData       |         1|
++------+-----------------+----------+
+
+Report Cell Usage: 
++------+----------------------+------+
+|      |Cell                  |Count |
++------+----------------------+------+
+|1     |ALU16Bits_bbox        |     1|
+|2     |addressExtensor_bbox  |     1|
+|3     |archivoRegistros_bbox |     1|
+|4     |memoryData_bbox       |     1|
+|5     |memoryProgram_bbox    |     1|
+|6     |mux16Bits_bbox        |     7|
+|13    |mux4Bits_bbox         |     1|
+|14    |pilaHardware_bbox     |     1|
+|15    |signExtender_bbox     |     1|
+|16    |IBUF                  |    21|
+|17    |OBUF                  |     4|
++------+----------------------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   282|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:01:06 . Memory (MB): peak = 1067.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:01:06 . Memory (MB): peak = 1067.855 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:01:06 . Memory (MB): peak = 1067.855 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1067.855 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1158.242 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+27 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:01:18 . Memory (MB): peak = 1158.242 ; gain = 90.387
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Hassan/Desktop/Practicasarqui/Practica10/dataPath/dataPath.runs/synth_1/dataPath.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file dataPath_utilization_synth.rpt -pb dataPath_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 24 18:24:04 2021...

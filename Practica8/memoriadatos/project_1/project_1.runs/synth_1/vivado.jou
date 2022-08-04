@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Oct 29 14:24:53 2021
+# Process ID: 16504
+# Current directory: C:/Users/Hassan/Desktop/Practicasarqui/Practica8/memoriadatos/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log memoryData.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source memoryData.tcl
+# Log file: C:/Users/Hassan/Desktop/Practicasarqui/Practica8/memoriadatos/project_1/project_1.runs/synth_1/memoryData.vds
+# Journal file: C:/Users/Hassan/Desktop/Practicasarqui/Practica8/memoriadatos/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source memoryData.tcl -notrace
